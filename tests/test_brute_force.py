@@ -92,3 +92,37 @@ def test_json_graphs_match_naive():
     for g in load_json_graphs(DATASET / "graphs-1.json"):
         for k in range(g.n + 1):
             assert brute_force(g, k).edges == brute_force_naive(g, k).edges
+
+
+# ----------------------------- branch and bound -------------------------------- #
+
+from dks import branch_and_bound, greedy_peel  # noqa: E402
+
+
+@pytest.mark.parametrize("seed", range(20))
+def test_bnb_matches_brute_force(seed):
+    n = 6 + seed % 9               # n from 6 to 14
+    g = gnp(n, (0.2, 0.5, 0.8)[seed % 3], seed=100 + seed)
+    for k in range(n + 1):
+        r = branch_and_bound(g, k)
+        assert r.edges == brute_force(g, k).edges
+        assert len(r.vertices) == k and g.edges_in(r.vertices) == r.edges
+        assert r.subsets_checked <= comb(n, k)
+
+
+@pytest.mark.parametrize("seed", range(5))
+def test_bnb_planted_clique(seed):
+    g, _ = planted_clique(30, 0.3, 8, seed=seed)
+    assert branch_and_bound(g, 8).edges == comb(8, 2)
+
+
+def test_greedy_peel_is_feasible():
+    g = gnp(15, 0.5, seed=3)
+    e, vs = greedy_peel(g, 6)
+    assert len(vs) == 6 and g.edges_in(vs) == e
+
+
+def test_bnb_on_benchmark_subgraph():
+    g = load_kcluster(DATASET / "PB1_d05.txt")
+    sub = Graph(14, [(u, v) for u, v in g.edges if v < 14])
+    assert branch_and_bound(sub, 7).edges == brute_force(sub, 7).edges

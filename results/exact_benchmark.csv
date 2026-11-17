@@ -1,0 +1,201 @@
+method,density,source,n,k,m,realized_density,status,seconds,edges,subsets_checked,nodes,total_subsets
+naive,50%,PB1_d05.txt first 10 vertices,10,5,21,0.4667,ok,0.000176,9,252,,252
+naive,50%,PB1_d05.txt first 12 vertices,12,6,28,0.4242,ok,0.000765,12,924,,924
+naive,50%,PB1_d05.txt first 14 vertices,14,7,40,0.4396,ok,0.003188,16,3432,,3432
+naive,50%,PB1_d05.txt first 16 vertices,16,8,46,0.3833,ok,0.013438,20,12870,,12870
+naive,50%,PB1_d05.txt first 18 vertices,18,9,58,0.3791,ok,0.055474,24,48620,,48620
+naive,50%,PB1_d05.txt first 20 vertices,20,10,80,0.4211,ok,0.234374,32,184756,,184756
+naive,50%,PB1_d05.txt first 22 vertices,22,11,96,0.4156,ok,0.976472,37,705432,,705432
+naive,50%,PB1_d05.txt first 24 vertices,24,12,120,0.4348,ok,4.247212,44,2704156,,2704156
+naive,50%,PB1_d05.txt first 26 vertices,26,13,144,0.4431,ok,16.640091,52,10400600,,10400600
+naive,50%,PB1_d05.txt first 28 vertices,28,14,175,0.463,infeasible,,,,,40116600
+naive,50%,PB1_d05.txt first 30 vertices,30,15,200,0.4598,skipped,,,,,155117520
+naive,50%,PB1_d05.txt first 32 vertices,32,16,231,0.4657,skipped,,,,,601080390
+naive,50%,PB1_d05.txt first 34 vertices,34,17,268,0.4777,skipped,,,,,2333606220
+naive,50%,PB1_d05.txt first 36 vertices,36,18,300,0.4762,skipped,,,,,9075135300
+naive,50%,PB1_d05.txt first 38 vertices,38,19,339,0.4822,skipped,,,,,35345263800
+naive,50%,PB1_d05.txt,40,20,381,0.4885,skipped,,,,,137846528820
+naive,50%,ALEA1n80_d05_method2.txt first 42 vertices,42,21,426,0.4948,skipped,,,,,538257874440
+naive,50%,ALEA1n80_d05_method2.txt first 44 vertices,44,22,468,0.4947,skipped,,,,,2104098963720
+naive,50%,ALEA1n80_d05_method2.txt first 46 vertices,46,23,518,0.5005,skipped,,,,,8233430727600
+naive,50%,ALEA1n80_d05_method2.txt first 48 vertices,48,24,560,0.4965,skipped,,,,,32247603683100
+naive,50%,ALEA1n80_d05_method2.txt first 50 vertices,50,25,603,0.4922,skipped,,,,,126410606437752
+naive,50%,ALEA1n80_d05_method2.txt first 52 vertices,52,26,652,0.4917,skipped,,,,,495918532948104
+naive,50%,ALEA1n80_d05_method2.txt first 54 vertices,54,27,708,0.4948,skipped,,,,,1946939425648112
+naive,50%,ALEA1n80_d05_method2.txt first 56 vertices,56,28,763,0.4955,skipped,,,,,7648690600760440
+naive,50%,ALEA1n80_d05_method2.txt first 58 vertices,58,29,824,0.4985,skipped,,,,,30067266499541040
+naive,50%,ALEA1n80_d05_method2.txt first 60 vertices,60,30,879,0.4966,skipped,,,,,118264581564861424
+naive,50%,ALEA1n80_d05_method2.txt first 62 vertices,62,31,938,0.496,skipped,,,,,465428353255261088
+naive,50%,ALEA1n80_d05_method2.txt first 64 vertices,64,32,999,0.4955,skipped,,,,,1832624140942590534
+naive,50%,ALEA1n80_d05_method2.txt first 66 vertices,66,33,1067,0.4974,skipped,,,,,7219428434016265740
+naive,50%,ALEA1n80_d05_method2.txt first 68 vertices,68,34,1136,0.4987,skipped,,,,,28453041475240576740
+naive,50%,ALEA1n80_d05_method2.txt first 70 vertices,70,35,1201,0.4973,skipped,,,,,112186277816662845432
+naive,50%,ALEA1n80_d05_method2.txt first 72 vertices,72,36,1268,0.4961,skipped,,,,,442512540276836779204
+naive,50%,ALEA1n80_d05_method2.txt first 74 vertices,74,37,1328,0.4917,skipped,,,,,1746130564335626209832
+naive,50%,ALEA1n80_d05_method2.txt first 76 vertices,76,38,1399,0.4909,skipped,,,,,6892620648693261354600
+naive,50%,ALEA1n80_d05_method2.txt first 78 vertices,78,39,1471,0.4898,skipped,,,,,27217014869199032015600
+naive,50%,ALEA1n80_d05_method2.txt,80,40,1556,0.4924,skipped,,,,,107507208733336176461620
+naive,50%,ALEA1n100_d05_method2.txt,100,50,2417,0.4883,skipped,,,,,100891344545564193334812497256
+naive,50%,PB1_n120_d050.txt,120,60,3570,0.5,skipped,,,,,96614908840363322603893139521372656
+naive,50%,PB1_n140_d050.txt,140,70,4865,0.5,skipped,,,,,93820969697840041204785894580506297666600
+naive,50%,PB1_n160_d050.txt,160,80,6360,0.5,skipped,,,,,92045125813734238026462263037378063990076729140
+incremental,50%,PB1_d05.txt first 10 vertices,10,5,21,0.4667,ok,0.000077,9,252,,252
+incremental,50%,PB1_d05.txt first 12 vertices,12,6,28,0.4242,ok,0.000298,12,924,,924
+incremental,50%,PB1_d05.txt first 14 vertices,14,7,40,0.4396,ok,0.001074,16,3432,,3432
+incremental,50%,PB1_d05.txt first 16 vertices,16,8,46,0.3833,ok,0.004121,20,12870,,12870
+incremental,50%,PB1_d05.txt first 18 vertices,18,9,58,0.3791,ok,0.015248,24,48620,,48620
+incremental,50%,PB1_d05.txt first 20 vertices,20,10,80,0.4211,ok,0.056596,32,184756,,184756
+incremental,50%,PB1_d05.txt first 22 vertices,22,11,96,0.4156,ok,0.218396,37,705432,,705432
+incremental,50%,PB1_d05.txt first 24 vertices,24,12,120,0.4348,ok,0.845959,44,2704156,,2704156
+incremental,50%,PB1_d05.txt first 26 vertices,26,13,144,0.4431,ok,3.323319,52,10400600,,10400600
+incremental,50%,PB1_d05.txt first 28 vertices,28,14,175,0.463,ok,12.956717,61,40116600,,40116600
+incremental,50%,PB1_d05.txt first 30 vertices,30,15,200,0.4598,ok,49.697854,69,155117520,,155117520
+incremental,50%,PB1_d05.txt first 32 vertices,32,16,231,0.4657,infeasible,,,,,601080390
+incremental,50%,PB1_d05.txt first 34 vertices,34,17,268,0.4777,skipped,,,,,2333606220
+incremental,50%,PB1_d05.txt first 36 vertices,36,18,300,0.4762,skipped,,,,,9075135300
+incremental,50%,PB1_d05.txt first 38 vertices,38,19,339,0.4822,skipped,,,,,35345263800
+incremental,50%,PB1_d05.txt,40,20,381,0.4885,skipped,,,,,137846528820
+incremental,50%,ALEA1n80_d05_method2.txt first 42 vertices,42,21,426,0.4948,skipped,,,,,538257874440
+incremental,50%,ALEA1n80_d05_method2.txt first 44 vertices,44,22,468,0.4947,skipped,,,,,2104098963720
+incremental,50%,ALEA1n80_d05_method2.txt first 46 vertices,46,23,518,0.5005,skipped,,,,,8233430727600
+incremental,50%,ALEA1n80_d05_method2.txt first 48 vertices,48,24,560,0.4965,skipped,,,,,32247603683100
+incremental,50%,ALEA1n80_d05_method2.txt first 50 vertices,50,25,603,0.4922,skipped,,,,,126410606437752
+incremental,50%,ALEA1n80_d05_method2.txt first 52 vertices,52,26,652,0.4917,skipped,,,,,495918532948104
+incremental,50%,ALEA1n80_d05_method2.txt first 54 vertices,54,27,708,0.4948,skipped,,,,,1946939425648112
+incremental,50%,ALEA1n80_d05_method2.txt first 56 vertices,56,28,763,0.4955,skipped,,,,,7648690600760440
+incremental,50%,ALEA1n80_d05_method2.txt first 58 vertices,58,29,824,0.4985,skipped,,,,,30067266499541040
+incremental,50%,ALEA1n80_d05_method2.txt first 60 vertices,60,30,879,0.4966,skipped,,,,,118264581564861424
+incremental,50%,ALEA1n80_d05_method2.txt first 62 vertices,62,31,938,0.496,skipped,,,,,465428353255261088
+incremental,50%,ALEA1n80_d05_method2.txt first 64 vertices,64,32,999,0.4955,skipped,,,,,1832624140942590534
+incremental,50%,ALEA1n80_d05_method2.txt first 66 vertices,66,33,1067,0.4974,skipped,,,,,7219428434016265740
+incremental,50%,ALEA1n80_d05_method2.txt first 68 vertices,68,34,1136,0.4987,skipped,,,,,28453041475240576740
+incremental,50%,ALEA1n80_d05_method2.txt first 70 vertices,70,35,1201,0.4973,skipped,,,,,112186277816662845432
+incremental,50%,ALEA1n80_d05_method2.txt first 72 vertices,72,36,1268,0.4961,skipped,,,,,442512540276836779204
+incremental,50%,ALEA1n80_d05_method2.txt first 74 vertices,74,37,1328,0.4917,skipped,,,,,1746130564335626209832
+incremental,50%,ALEA1n80_d05_method2.txt first 76 vertices,76,38,1399,0.4909,skipped,,,,,6892620648693261354600
+incremental,50%,ALEA1n80_d05_method2.txt first 78 vertices,78,39,1471,0.4898,skipped,,,,,27217014869199032015600
+incremental,50%,ALEA1n80_d05_method2.txt,80,40,1556,0.4924,skipped,,,,,107507208733336176461620
+incremental,50%,ALEA1n100_d05_method2.txt,100,50,2417,0.4883,skipped,,,,,100891344545564193334812497256
+incremental,50%,PB1_n120_d050.txt,120,60,3570,0.5,skipped,,,,,96614908840363322603893139521372656
+incremental,50%,PB1_n140_d050.txt,140,70,4865,0.5,skipped,,,,,93820969697840041204785894580506297666600
+incremental,50%,PB1_n160_d050.txt,160,80,6360,0.5,skipped,,,,,92045125813734238026462263037378063990076729140
+bnb,25%,PB1_d025.txt first 10 vertices,10,5,8,0.1778,ok,0.000027,7,0,7,252
+bnb,25%,PB1_d025.txt first 12 vertices,12,6,10,0.1515,ok,0.000046,8,0,29,924
+bnb,25%,PB1_d025.txt first 14 vertices,14,7,13,0.1429,ok,0.000063,10,0,41,3432
+bnb,25%,PB1_d025.txt first 16 vertices,16,8,15,0.125,ok,0.000078,11,0,46,12870
+bnb,25%,PB1_d025.txt first 18 vertices,18,9,18,0.1176,ok,0.000112,13,0,71,48620
+bnb,25%,PB1_d025.txt first 20 vertices,20,10,28,0.1474,ok,0.000427,15,66,309,184756
+bnb,25%,PB1_d025.txt first 22 vertices,22,11,34,0.1472,ok,0.000443,19,66,296,705432
+bnb,25%,PB1_d025.txt first 24 vertices,24,12,44,0.1594,ok,0.001017,23,55,666,2704156
+bnb,25%,PB1_d025.txt first 26 vertices,26,13,54,0.1662,ok,0.002256,26,550,1505,10400600
+bnb,25%,PB1_d025.txt first 28 vertices,28,14,72,0.1905,ok,0.003214,34,0,1876,40116600
+bnb,25%,PB1_d025.txt first 30 vertices,30,15,84,0.1931,ok,0.014050,38,511,8974,155117520
+bnb,25%,PB1_d025.txt first 32 vertices,32,16,103,0.2077,ok,0.045348,44,2318,26468,601080390
+bnb,25%,PB1_d025.txt first 34 vertices,34,17,124,0.221,ok,0.068568,53,1083,36228,2333606220
+bnb,25%,PB1_d025.txt first 36 vertices,36,18,133,0.2111,ok,0.136739,57,288,70131,9075135300
+bnb,25%,PB1_d025.txt first 38 vertices,38,19,158,0.2248,ok,0.258663,67,136,125898,35345263800
+bnb,25%,PB1_d025.txt,40,20,183,0.2346,ok,0.408669,77,649,195332,137846528820
+bnb,25%,ALEA1n80_d025_method2.txt first 42 vertices,42,21,223,0.259,ok,4.196682,83,4113,2048662,538257874440
+bnb,25%,ALEA1n80_d025_method2.txt first 44 vertices,44,22,247,0.2611,ok,14.153671,89,3736,6709913,2104098963720
+bnb,25%,ALEA1n80_d025_method2.txt first 46 vertices,46,23,268,0.2589,ok,25.762497,97,1414,11408755,8233430727600
+bnb,25%,ALEA1n80_d025_method2.txt first 48 vertices,48,24,300,0.266,ok,38.506505,109,2305,16178936,32247603683100
+bnb,25%,ALEA1n80_d025_method2.txt first 50 vertices,50,25,323,0.2637,ok,51.375748,119,1311,21559719,126410606437752
+bnb,25%,ALEA1n80_d025_method2.txt first 52 vertices,52,26,347,0.2617,infeasible,,,,,495918532948104
+bnb,25%,ALEA1n80_d025_method2.txt first 54 vertices,54,27,374,0.2614,skipped,,,,,1946939425648112
+bnb,25%,ALEA1n80_d025_method2.txt first 56 vertices,56,28,398,0.2584,skipped,,,,,7648690600760440
+bnb,25%,ALEA1n80_d025_method2.txt first 58 vertices,58,29,420,0.2541,skipped,,,,,30067266499541040
+bnb,25%,ALEA1n80_d025_method2.txt first 60 vertices,60,30,443,0.2503,skipped,,,,,118264581564861424
+bnb,25%,ALEA1n80_d025_method2.txt first 62 vertices,62,31,482,0.2549,skipped,,,,,465428353255261088
+bnb,25%,ALEA1n80_d025_method2.txt first 64 vertices,64,32,511,0.2535,skipped,,,,,1832624140942590534
+bnb,25%,ALEA1n80_d025_method2.txt first 66 vertices,66,33,538,0.2508,skipped,,,,,7219428434016265740
+bnb,25%,ALEA1n80_d025_method2.txt first 68 vertices,68,34,574,0.252,skipped,,,,,28453041475240576740
+bnb,25%,ALEA1n80_d025_method2.txt first 70 vertices,70,35,612,0.2534,skipped,,,,,112186277816662845432
+bnb,25%,ALEA1n80_d025_method2.txt first 72 vertices,72,36,650,0.2543,skipped,,,,,442512540276836779204
+bnb,25%,ALEA1n80_d025_method2.txt first 74 vertices,74,37,675,0.2499,skipped,,,,,1746130564335626209832
+bnb,25%,ALEA1n80_d025_method2.txt first 76 vertices,76,38,709,0.2488,skipped,,,,,6892620648693261354600
+bnb,25%,ALEA1n80_d025_method2.txt first 78 vertices,78,39,748,0.2491,skipped,,,,,27217014869199032015600
+bnb,25%,ALEA1n80_d025_method2.txt,80,40,788,0.2494,skipped,,,,,107507208733336176461620
+bnb,25%,ALEA1n100_d025_method2.txt,100,50,1211,0.2446,skipped,,,,,100891344545564193334812497256
+bnb,25%,PB1_n120_d025.txt,120,60,1785,0.25,skipped,,,,,96614908840363322603893139521372656
+bnb,25%,PB1_n140_d025.txt,140,70,2433,0.2501,skipped,,,,,93820969697840041204785894580506297666600
+bnb,25%,PB1_n160_d025.txt,160,80,3180,0.25,skipped,,,,,92045125813734238026462263037378063990076729140
+bnb,50%,PB1_d05.txt first 10 vertices,10,5,21,0.4667,ok,0.000047,9,21,30,252
+bnb,50%,PB1_d05.txt first 12 vertices,12,6,28,0.4242,ok,0.000073,12,21,47,924
+bnb,50%,PB1_d05.txt first 14 vertices,14,7,40,0.4396,ok,0.000162,16,36,136,3432
+bnb,50%,PB1_d05.txt first 16 vertices,16,8,46,0.3833,ok,0.000188,20,0,141,12870
+bnb,50%,PB1_d05.txt first 18 vertices,18,9,58,0.3791,ok,0.000397,24,0,311,48620
+bnb,50%,PB1_d05.txt first 20 vertices,20,10,80,0.4211,ok,0.000958,32,0,758,184756
+bnb,50%,PB1_d05.txt first 22 vertices,22,11,96,0.4156,ok,0.002412,37,55,1880,705432
+bnb,50%,PB1_d05.txt first 24 vertices,24,12,120,0.4348,ok,0.007710,44,228,5599,2704156
+bnb,50%,PB1_d05.txt first 26 vertices,26,13,144,0.4431,ok,0.015462,52,382,11187,10400600
+bnb,50%,PB1_d05.txt first 28 vertices,28,14,175,0.463,ok,0.042014,61,276,30359,40116600
+bnb,50%,PB1_d05.txt first 30 vertices,30,15,200,0.4598,ok,0.098010,69,66,66549,155117520
+bnb,50%,PB1_d05.txt first 32 vertices,32,16,231,0.4657,ok,0.382697,78,871,250810,601080390
+bnb,50%,PB1_d05.txt first 34 vertices,34,17,268,0.4777,ok,0.487387,91,78,275262,2333606220
+bnb,50%,PB1_d05.txt first 36 vertices,36,18,300,0.4762,ok,1.481988,100,198,845876,9075135300
+bnb,50%,PB1_d05.txt first 38 vertices,38,19,339,0.4822,ok,2.824842,113,1454,1554883,35345263800
+bnb,50%,PB1_d05.txt,40,20,381,0.4885,ok,3.410569,130,380,1697273,137846528820
+bnb,50%,ALEA1n80_d05_method2.txt first 42 vertices,42,21,426,0.4948,ok,26.342675,138,866,14401663,538257874440
+bnb,50%,ALEA1n80_d05_method2.txt first 44 vertices,44,22,468,0.4947,infeasible,,,,,2104098963720
+bnb,50%,ALEA1n80_d05_method2.txt first 46 vertices,46,23,518,0.5005,skipped,,,,,8233430727600
+bnb,50%,ALEA1n80_d05_method2.txt first 48 vertices,48,24,560,0.4965,skipped,,,,,32247603683100
+bnb,50%,ALEA1n80_d05_method2.txt first 50 vertices,50,25,603,0.4922,skipped,,,,,126410606437752
+bnb,50%,ALEA1n80_d05_method2.txt first 52 vertices,52,26,652,0.4917,skipped,,,,,495918532948104
+bnb,50%,ALEA1n80_d05_method2.txt first 54 vertices,54,27,708,0.4948,skipped,,,,,1946939425648112
+bnb,50%,ALEA1n80_d05_method2.txt first 56 vertices,56,28,763,0.4955,skipped,,,,,7648690600760440
+bnb,50%,ALEA1n80_d05_method2.txt first 58 vertices,58,29,824,0.4985,skipped,,,,,30067266499541040
+bnb,50%,ALEA1n80_d05_method2.txt first 60 vertices,60,30,879,0.4966,skipped,,,,,118264581564861424
+bnb,50%,ALEA1n80_d05_method2.txt first 62 vertices,62,31,938,0.496,skipped,,,,,465428353255261088
+bnb,50%,ALEA1n80_d05_method2.txt first 64 vertices,64,32,999,0.4955,skipped,,,,,1832624140942590534
+bnb,50%,ALEA1n80_d05_method2.txt first 66 vertices,66,33,1067,0.4974,skipped,,,,,7219428434016265740
+bnb,50%,ALEA1n80_d05_method2.txt first 68 vertices,68,34,1136,0.4987,skipped,,,,,28453041475240576740
+bnb,50%,ALEA1n80_d05_method2.txt first 70 vertices,70,35,1201,0.4973,skipped,,,,,112186277816662845432
+bnb,50%,ALEA1n80_d05_method2.txt first 72 vertices,72,36,1268,0.4961,skipped,,,,,442512540276836779204
+bnb,50%,ALEA1n80_d05_method2.txt first 74 vertices,74,37,1328,0.4917,skipped,,,,,1746130564335626209832
+bnb,50%,ALEA1n80_d05_method2.txt first 76 vertices,76,38,1399,0.4909,skipped,,,,,6892620648693261354600
+bnb,50%,ALEA1n80_d05_method2.txt first 78 vertices,78,39,1471,0.4898,skipped,,,,,27217014869199032015600
+bnb,50%,ALEA1n80_d05_method2.txt,80,40,1556,0.4924,skipped,,,,,107507208733336176461620
+bnb,50%,ALEA1n100_d05_method2.txt,100,50,2417,0.4883,skipped,,,,,100891344545564193334812497256
+bnb,50%,PB1_n120_d050.txt,120,60,3570,0.5,skipped,,,,,96614908840363322603893139521372656
+bnb,50%,PB1_n140_d050.txt,140,70,4865,0.5,skipped,,,,,93820969697840041204785894580506297666600
+bnb,50%,PB1_n160_d050.txt,160,80,6360,0.5,skipped,,,,,92045125813734238026462263037378063990076729140
+bnb,75%,PB1_d075.txt first 10 vertices,10,5,36,0.8,ok,0.000024,10,0,1,252
+bnb,75%,PB1_d075.txt first 12 vertices,12,6,54,0.8182,ok,0.000031,15,0,1,924
+bnb,75%,PB1_d075.txt first 14 vertices,14,7,73,0.8022,ok,0.000036,21,0,1,3432
+bnb,75%,PB1_d075.txt first 16 vertices,16,8,90,0.75,ok,0.000324,27,0,263,12870
+bnb,75%,PB1_d075.txt first 18 vertices,18,9,109,0.7124,ok,0.000492,34,0,382,48620
+bnb,75%,PB1_d075.txt first 20 vertices,20,10,137,0.7211,ok,0.002273,41,21,1981,184756
+bnb,75%,PB1_d075.txt first 22 vertices,22,11,169,0.7316,ok,0.005652,50,176,4836,705432
+bnb,75%,PB1_d075.txt first 24 vertices,24,12,205,0.7428,ok,0.004809,62,90,3493,2704156
+bnb,75%,PB1_d075.txt first 26 vertices,26,13,236,0.7262,ok,0.027015,71,700,21183,10400600
+bnb,75%,PB1_d075.txt first 28 vertices,28,14,280,0.7407,ok,0.021328,85,354,14337,40116600
+bnb,75%,PB1_d075.txt first 30 vertices,30,15,319,0.7333,ok,0.075392,96,132,51450,155117520
+bnb,75%,PB1_d075.txt first 32 vertices,32,16,361,0.7278,ok,0.260906,108,235,160254,601080390
+bnb,75%,PB1_d075.txt first 34 vertices,34,17,415,0.7398,ok,0.501445,123,0,294167,2333606220
+bnb,75%,PB1_d075.txt first 36 vertices,36,18,467,0.7413,ok,0.978458,138,87,530354,9075135300
+bnb,75%,PB1_d075.txt first 38 vertices,38,19,521,0.7411,ok,2.763160,153,871,1469187,35345263800
+bnb,75%,PB1_d075.txt,40,20,577,0.7397,ok,9.038794,168,1649,4729409,137846528820
+bnb,75%,ALEA1n80_d075_method2.txt first 42 vertices,42,21,652,0.7573,infeasible,,,,,538257874440
+bnb,75%,ALEA1n80_d075_method2.txt first 44 vertices,44,22,716,0.7569,skipped,,,,,2104098963720
+bnb,75%,ALEA1n80_d075_method2.txt first 46 vertices,46,23,783,0.7565,skipped,,,,,8233430727600
+bnb,75%,ALEA1n80_d075_method2.txt first 48 vertices,48,24,852,0.7553,skipped,,,,,32247603683100
+bnb,75%,ALEA1n80_d075_method2.txt first 50 vertices,50,25,922,0.7527,skipped,,,,,126410606437752
+bnb,75%,ALEA1n80_d075_method2.txt first 52 vertices,52,26,992,0.7481,skipped,,,,,495918532948104
+bnb,75%,ALEA1n80_d075_method2.txt first 54 vertices,54,27,1064,0.7435,skipped,,,,,1946939425648112
+bnb,75%,ALEA1n80_d075_method2.txt first 56 vertices,56,28,1148,0.7455,skipped,,,,,7648690600760440
+bnb,75%,ALEA1n80_d075_method2.txt first 58 vertices,58,29,1237,0.7483,skipped,,,,,30067266499541040
+bnb,75%,ALEA1n80_d075_method2.txt first 60 vertices,60,30,1326,0.7492,skipped,,,,,118264581564861424
+bnb,75%,ALEA1n80_d075_method2.txt first 62 vertices,62,31,1418,0.7499,skipped,,,,,465428353255261088
+bnb,75%,ALEA1n80_d075_method2.txt first 64 vertices,64,32,1504,0.746,skipped,,,,,1832624140942590534
+bnb,75%,ALEA1n80_d075_method2.txt first 66 vertices,66,33,1597,0.7445,skipped,,,,,7219428434016265740
+bnb,75%,ALEA1n80_d075_method2.txt first 68 vertices,68,34,1695,0.7441,skipped,,,,,28453041475240576740
+bnb,75%,ALEA1n80_d075_method2.txt first 70 vertices,70,35,1794,0.7429,skipped,,,,,112186277816662845432
+bnb,75%,ALEA1n80_d075_method2.txt first 72 vertices,72,36,1902,0.7441,skipped,,,,,442512540276836779204
+bnb,75%,ALEA1n80_d075_method2.txt first 74 vertices,74,37,2015,0.746,skipped,,,,,1746130564335626209832
+bnb,75%,ALEA1n80_d075_method2.txt first 76 vertices,76,38,2118,0.7432,skipped,,,,,6892620648693261354600
+bnb,75%,ALEA1n80_d075_method2.txt first 78 vertices,78,39,2246,0.7479,skipped,,,,,27217014869199032015600
+bnb,75%,ALEA1n80_d075_method2.txt,80,40,2365,0.7484,skipped,,,,,107507208733336176461620
+bnb,75%,ALEA1n100_d075_method2.txt,100,50,3665,0.7404,skipped,,,,,100891344545564193334812497256
+bnb,75%,PB1_n120_d075.txt,120,60,5355,0.75,skipped,,,,,96614908840363322603893139521372656
+bnb,75%,PB1_n140_d075.txt,140,70,7298,0.7501,skipped,,,,,93820969697840041204785894580506297666600
+bnb,75%,PB1_n160_d075.txt,160,80,9540,0.75,skipped,,,,,92045125813734238026462263037378063990076729140
