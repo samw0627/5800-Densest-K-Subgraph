@@ -27,7 +27,13 @@ from dks import brute_force, gnp, load_json_graphs  # noqa: E402
 RESULTS = ROOT / "results"
 SMALL_GRAPHS = ROOT / "Dataset" / "graphs-1.json"
 
-
+'''
+Measure the runtime of the brute_force function for a given graph and k.
+We do this by running the function multiple times and taking the average runtime.
+We also need to make sure that the runtime is at least 0.2 seconds.
+If the runtime is less than 0.2 seconds, we repeat the run until the runtime is at least 0.2 seconds.
+We also need to make sure that we run the function at least 50 times.
+'''
 def timed(g, k, min_total=0.2):
     """Run brute_force, repeating fast runs so the timing isn't noise. Returns (result, seconds/run)."""
     runs, start = 0, time.perf_counter()
